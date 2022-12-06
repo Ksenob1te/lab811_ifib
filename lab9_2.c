@@ -75,8 +75,8 @@ int main(void) {
     scanf("%lu%lu", &a, &b);
     int result = process(a, b, &p);
     if (result == 0)
-        printf("%lu", p);
+        printf("%lu\n", p);
     else
-        printf("!%d", result);
+        printf("!%d\n", result);
 
 }
