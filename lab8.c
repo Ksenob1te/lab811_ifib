@@ -77,7 +77,7 @@ int main(void) {
     int result = process(a, b, c, &s, &p);
     printf("%d\n", result);
     if (result == 0 || result == 2) {
-        printf("%.6lf\n%.6lf", p, s);
+        printf("%.6lf\n%.6lf\n", p, s);
     }
 
 //     2 task
