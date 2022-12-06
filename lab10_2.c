@@ -14,5 +14,5 @@ ull process(int n, int level) {
 int main(void) {
     int k;
     scanf("%d", &k);
-    printf("%llu", process(k, 0));
+    printf("%llu\n", process(k, 0));
 }
