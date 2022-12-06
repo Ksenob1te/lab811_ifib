@@ -31,8 +31,8 @@ int main(void) {
     printf("%llu\n", ftod(pin));
     int result = dtof(din, &pin);
     if (result == 0)
-        printf("%llu", pin);
+        printf("%llu\n", pin);
     else
-        printf("!");
+        printf("!\n");
 
 }
