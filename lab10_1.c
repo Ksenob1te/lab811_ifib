@@ -10,7 +10,7 @@ int main(void) {
     ull n, m;
     scanf("%llu%llu", &n, &m);
     if (m >= 0 && n >= m)
-        printf("%llu", process(n, m));
+        printf("%llu\n", process(n, m));
     else
-        printf("-1");
+        printf("-1\n");
 }
